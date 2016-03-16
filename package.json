@@ -1,0 +1,37 @@
+{
+  "name": "fbreact",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "production": "webpack -p",
+    "watch": "webpack -w",
+    "start": "webpack-dev-server"
+  },
+
+  "author": "samuel james",
+  "license": "ISC",
+
+  "dependencies": {
+    "axios": "^0.9.1",
+    "jquery": "^2.2.1",
+    "react": "^0.14.7",
+    "react-addons-css-transition-group": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.10.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+
+}
